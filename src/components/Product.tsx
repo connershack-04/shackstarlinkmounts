@@ -1,4 +1,5 @@
 import { Check } from 'lucide-react';
+import mountProduct from '../assets/mount-product.svg';
 
 export function Product() {
   return (
@@ -7,13 +8,11 @@ export function Product() {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="relative aspect-square bg-gradient-to-br from-zinc-900 to-zinc-950 rounded-sm border border-zinc-800 flex items-center justify-center overflow-hidden">
             <div className="absolute inset-0 bg-[linear-gradient(rgba(249,115,22,0.05)_1px,transparent_1px),linear-gradient(90deg,rgba(249,115,22,0.05)_1px,transparent_1px)] bg-[size:20px_20px]" />
-            <div className="relative text-center p-8">
-              <div className="text-6xl mb-4">📡</div>
-              <div className="text-zinc-600 text-sm tracking-[0.2em] uppercase">
-                Product Image
-              </div>
-              <div className="text-zinc-700 text-xs mt-2">Starlink Mini Mount</div>
-            </div>
+            <img 
+              src={mountProduct} 
+              alt="Shack Mounts Starlink Mini Van Mount"
+              className="relative w-full h-full object-contain p-4"
+            />
           </div>
 
           <div>
