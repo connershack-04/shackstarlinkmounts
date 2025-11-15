@@ -1,0 +1,25 @@
+import { Header } from './components/Header';
+import { Hero } from './components/Hero';
+import { Product } from './components/Product';
+import { WhyUs } from './components/WhyUs';
+import { Specs } from './components/Specs';
+import { Contact } from './components/Contact';
+import { Footer } from './components/Footer';
+
+function App() {
+  return (
+    <div className="min-h-screen bg-black text-zinc-100">
+      <Header />
+      <main>
+        <Hero />
+        <Product />
+        <WhyUs />
+        <Specs />
+        <Contact />
+      </main>
+      <Footer />
+    </div>
+  );
+}
+
+export default App;
