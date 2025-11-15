@@ -1,5 +1,4 @@
 import { Check } from 'lucide-react';
-import mountProduct from '../assets/mount-product.svg';
 
 const contactEmail = 'hello@shackmounts.com';
 
@@ -21,8 +20,6 @@ const products = [
       'Simple DIY install with basic tools',
       'Stays steady even at highway speeds',
     ],
-    imageSrc: mountProduct,
-    imageAlt: 'Shack Mounts Starlink Mini Mount',
     buttonLabel: 'Preorder Mount',
     buttonHref: `mailto:${contactEmail}?subject=${encodeURIComponent(
       'Starlink Mini Mount Inquiry'
@@ -43,8 +40,6 @@ const products = [
       'Compatible with roofs on vans, campers, and service vehicles',
       'Simple field-ready installation',
     ],
-    imageSrc: '/images/starlink-mini-bundle.jpg',
-    imageAlt: 'Starlink Mini bundle with Shack roof mount',
     buttonLabel: 'Order Bundle',
     buttonHref: `mailto:${contactEmail}?subject=${encodeURIComponent(
       'Shack Field Kit – Starlink Mini + Roof Mount Inquiry'
@@ -60,22 +55,9 @@ export function Product() {
         {products.map((product, index) => (
           <div
             key={product.id}
-            className="grid md:grid-cols-2 gap-12 items-center"
+            className="space-y-8"
           >
-            <div
-              className={`relative aspect-square bg-gradient-to-br from-zinc-900 to-zinc-950 rounded-sm border border-zinc-800 flex items-center justify-center overflow-hidden ${
-                index % 2 === 1 ? 'order-2 md:order-1' : ''
-              }`}
-            >
-              <div className="absolute inset-0 bg-[linear-gradient(rgba(249,115,22,0.05)_1px,transparent_1px),linear-gradient(90deg,rgba(249,115,22,0.05)_1px,transparent_1px)] bg-[size:20px_20px]" />
-              <img
-                src={product.imageSrc}
-                alt={product.imageAlt}
-                className="relative w-full h-full object-contain p-4"
-              />
-            </div>
-
-            <div className={index % 2 === 1 ? 'order-1 md:order-2' : ''}>
+            <div>
               <div className="inline-block mb-4 px-3 py-1 border border-orange-500/50 bg-orange-500/10">
                 <span className="text-xs tracking-[0.25em] text-orange-400 font-bold uppercase">
                   {product.badge}
