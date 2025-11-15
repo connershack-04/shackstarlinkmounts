@@ -109,15 +109,4 @@
     stroke-linecap="round"
     opacity="0.4"
   />
-  <text
-    x="300"
-    y="120"
-    text-anchor="middle"
-    font-family="Helvetica, Arial, sans-serif"
-    font-size="22"
-    letter-spacing="4"
-    fill="#bbbbbb"
-  >
-    SHACK STARLINK MOUNTS
-  </text>
 </svg>
