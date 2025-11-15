@@ -7,7 +7,7 @@ const products = [
   {
     id: 'mount-starlink-mini',
     badge: 'Flagship Product',
-    title: ['Starlink Mini', 'Van Mount'],
+    title: ['Starlink Mini', 'Mount'],
     priceLabel: '$149',
     priceNote: '/ intro pricing',
     description:
@@ -22,10 +22,10 @@ const products = [
       'Stays steady even at highway speeds',
     ],
     imageSrc: mountProduct,
-    imageAlt: 'Shack Mounts Starlink Mini Van Mount',
+    imageAlt: 'Shack Mounts Starlink Mini Mount',
     buttonLabel: 'Preorder Mount',
     buttonHref: `mailto:${contactEmail}?subject=${encodeURIComponent(
-      'Starlink Mini Van Mount Inquiry'
+      'Starlink Mini Mount Inquiry'
     )}`,
     footnote: '*Preorder only — first production run coming soon.',
   },
