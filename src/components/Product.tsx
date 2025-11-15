@@ -32,19 +32,16 @@ const products = [
   {
     id: 'bundle-starlink-mini-mount',
     badge: 'New Bundle',
-    title: ['Shack Field Kit –', 'Starlink Mini + Roof Mount'],
+    title: ['Shack Field Kit', 'Starlink Mini + Roof Mount'],
     priceLabel: '$699',
     description:
-      'Complete field-ready kit with Starlink Mini plus low-profile roof mount so you can work from the mountains, desert, or back roads.',
+      'The Shack Field Kit combines the Starlink Mini with our low-profile roof mount to deliver reliable connectivity anywhere. Designed for vanlifers, remote workers, and emergency responders, this setup provides durable protection and simple installation for field use.',
     longDescription:
-      'The Shack Field Kit is a plug-and-play package that includes the Starlink Mini and a purpose-built low-profile roof mount. The mount acts like an OtterBox-style case for your dish, adding protection and a clean, 1-inch standoff from the roof for drainage and cable routing. Designed for vans, trucks, and overland rigs, this bundle keeps your Starlink locked in place on washboard roads while still remaining easy to remove when you break camp.',
+      'Everything ships as a cohesive package so you can focus on the mission: protected hardware, low-profile mounting, and matched hardware pattern for quick installs or removals.',
     features: [
-      'Includes official Starlink Mini plus Shack roof mount',
-      'Low-profile, 1-inch standoff from the roof',
-      'Rugged housing protects edges and corners of the dish',
-      'Compatible with flat roofs on vans, campers, and shells',
-      'Simple install using the same hardware pattern as the mount',
-      'Matte black, military-inspired aesthetic to match Shack Mounts styling',
+      'Includes Starlink Mini, Shack roof mount, and full mounting hardware',
+      'Compatible with roofs on vans, campers, and service vehicles',
+      'Simple field-ready installation',
     ],
     imageSrc: '/images/starlink-mini-bundle.jpg',
     imageAlt: 'Starlink Mini bundle with Shack roof mount',
