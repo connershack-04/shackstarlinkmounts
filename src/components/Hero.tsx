@@ -27,7 +27,7 @@ export function Hero() {
           Starlink Mini
           <br />
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-orange-500 to-orange-400">
-            Tactical Mount
+            Mount
           </span>
         </h1>
 
