@@ -4,15 +4,15 @@ export function WhyUs() {
   const reasons = [
     {
       icon: Mountain,
-      title: 'Freedom to work from anywhere',
+      title: 'Stay connected on the road',
       description:
-        'Our mounts keep your Starlink connection stable no matter where your day takes you—so the mountains can be your office.',
+        'Work or stream reliably from your van, trailer, or truck. Your Starlink stays locked in, no matter where you travel.',
     },
     {
       icon: Tent,
-      title: 'Built for remote setups',
+      title: 'Built for van life',
       description:
-        'Designed for vans, trucks, and off-grid worksites so you can stay online without giving up the outdoors.',
+        'Engineered specifically for vehicles on the move. Works perfectly on vans, trailers, and trucks of all sizes.',
     },
     {
       icon: Wrench,
@@ -22,9 +22,9 @@ export function WhyUs() {
     },
     {
       icon: Wind,
-      title: 'Stable in rugged conditions',
+      title: 'Built for highway speeds',
       description:
-        'Engineered for wind, weather, and rough terrain so your signal stays locked in wherever you adventure.',
+        'Aerodynamic design handles highway winds and speeds. Your connection stays strong from city to backcountry.',
     },
     {
       icon: Trees,
@@ -42,9 +42,9 @@ export function WhyUs() {
         </h2>
 
         <p className="text-xl text-zinc-400 mb-12 max-w-3xl leading-relaxed">
-          We believe people do their best work when they're closer to the
-          outdoors. Shack Mounts makes that possible by helping you stay
-          connected anywhere—whether that's in the mountains or near the coast.
+          Van life means freedom, and Shack Mounts keeps you connected while you
+          travel. Whether you're working remotely or streaming content, we've got
+          your internet covered from coast to coast.
         </p>
 
         <div className="grid gap-6">

@@ -26,12 +26,12 @@ export function Product() {
             <h2 className="text-4xl sm:text-5xl font-bold text-zinc-100 mb-4 uppercase tracking-tight">
               Starlink Mini
               <br />
-              Roof Mount
+              Van Mount
             </h2>
 
             <p className="text-zinc-400 text-lg mb-6 leading-relaxed">
-              A rugged, easy-to-install mount built specifically for Starlink
-              users who want a clean, secure setup that survives the elements.
+              The perfect mount for your van life. Secure, aerodynamic, and built
+              to handle life on the road—keep your connection stable in any conditions.
             </p>
 
             <div className="mb-8">
@@ -46,10 +46,11 @@ export function Product() {
             <ul className="space-y-3 mb-8">
               {[
                 'Compatible with Starlink Mini dish',
-                'Works on houses, sheds, cabins, and vans',
+                'Optimized for vans, trailers, and trucks',
+                'Aerodynamic design reduces wind noise and drag',
                 'Heavy-duty steel with weather-resistant coating',
                 'Simple DIY install with basic tools',
-                'Stays steady in wind and rough conditions',
+                'Stays steady even at highway speeds',
               ].map((feature) => (
                 <li key={feature} className="flex items-start gap-3">
                   <Check className="text-orange-500 mt-1 flex-shrink-0" size={20} />

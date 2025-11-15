@@ -32,8 +32,8 @@ export function Hero() {
         </h1>
 
         <p className="text-xl sm:text-2xl text-zinc-400 mb-8 max-w-3xl mx-auto leading-relaxed">
-          Work from the mountains with reliable Starlink access. Engineered for
-          durability, built for adventure.
+          Stay connected on the road. Starlink mount engineered for vans, trailers,
+          and trucks. Work or stream from anywhere.
         </p>
 
         <button

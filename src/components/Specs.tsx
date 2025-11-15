@@ -4,15 +4,15 @@ export function Specs() {
   const features = [
     {
       icon: Shield,
-      title: 'Built for the elements',
+      title: 'Built for the road',
       description:
-        'Heavy-duty materials designed to handle wind, rain, and rough conditions. Field-tested in extreme environments.',
+        'Heavy-duty materials designed to handle highway speeds, wind, and weather. Tested on cross-country van journeys.',
     },
     {
       icon: Zap,
-      title: 'Clean install',
+      title: 'Easy van install',
       description:
-        'Mount your Starlink with a simple, tidy setup that looks good on any rig. No complicated wiring or tools.',
+        'Mount your Starlink with a simple, tidy setup that works on any van or truck roof. No complex tools needed.',
     },
     {
       icon: Package,
