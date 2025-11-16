@@ -6,31 +6,31 @@ export function WhyUs() {
       icon: Hammer,
       title: 'Built for real work',
       description:
-        'ShackMounts delivers reliable hardware for teams that need connectivity to survive weather, travel, and constant redeployment.',
+        'ShackMounts delivers reliable hardware for teams that need connectivity to survive weather, travel, and harsh environments.',
     },
     {
       icon: Tent,
       title: 'Proven in the field',
       description:
-        'Developed with remote workers, expedition teams, and public safety units operating far from infrastructure.',
+        'Developed with remote workers, military, and first responders units operating far from infrastructure.',
     },
     {
       icon: Wrench,
       title: 'Made for harsh environments',
       description:
-        'Materials withstand storms, salt, vibration, and rough roads on vehicles, vessels, and field sites.',
+        'Materials withstand storms, salt, vibration, and rough roads on vehicles and boats.',
     },
     {
       icon: Shield,
       title: 'Fast, repeatable installs',
       description:
-        'Matched hardware and clean cable routing make installs easy across fleets, trailers, and mobile units.',
+        'Matched hardware and clean cable routing make installs easy.',
     },
     {
       icon: ShieldCheck,
       title: 'Lifetime toughness guarantee',
       description:
-        'Backed by our Lifetime Toughness Warranty—built to endure real-world conditions.',
+        'Backed by our Lifetime Toughness Warranty—our products built to endure.',
     },
   ];
 
