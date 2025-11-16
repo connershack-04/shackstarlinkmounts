@@ -58,10 +58,6 @@ export function Product() {
           <h2 className="text-4xl sm:text-5xl font-bold text-zinc-100 mb-4 uppercase tracking-tight">
             Anywhere connectivity
           </h2>
-          <p className="text-zinc-400 text-lg leading-relaxed">
-            Field-ready Starlink Mini hardware for service vehicles, remote teams, and mission crews.
-            Choose the kit for a full deployment or the mount for existing equipment.
-          </p>
         </div>
 
         {products.map((product, index) => (
