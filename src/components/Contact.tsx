@@ -4,19 +4,9 @@ export function Contact() {
   return (
     <section id="contact" className="py-24 bg-black">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 text-center">
-        <h2 className="text-4xl sm:text-5xl font-bold text-zinc-100 mb-6 uppercase tracking-tight">
-          Let's Build Together
+        <h2 className="text-4xl sm:text-5xl font-bold text-zinc-100 mb-10 uppercase tracking-tight">
+          Contact Us
         </h2>
-
-        <div className="space-y-6 text-zinc-400 mb-10">
-          <p className="text-base">
-            Preorders are limited to the first 100 units. Request procurement packets, pricing schedules,
-            or technical details and we will respond with a tailored plan for your department or team.
-          </p>
-          <p className="tracking-[0.4em] uppercase text-xs text-zinc-500">
-            contact@shackmounts.com
-          </p>
-        </div>
 
         <div className="flex flex-col sm:flex-row justify-center gap-4">
           <a
