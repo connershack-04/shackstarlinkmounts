@@ -8,13 +8,32 @@ export function Contact() {
           Let's Build Together
         </h2>
 
-        <a
-          href="mailto:hello@shackmounts.com"
-          className="inline-flex items-center gap-3 px-8 py-4 border-2 border-orange-500 text-orange-500 hover:bg-orange-500 hover:text-black font-bold tracking-[0.2em] uppercase text-sm transition-all hover:scale-105"
-        >
-          <Mail size={20} />
-          Contact Us
-        </a>
+        <div className="space-y-6 text-zinc-400 mb-10">
+          <p className="text-base">
+            Preorders are open for the first 100 ShackMounts units. Need procurement paperwork, pricing decks,
+            or operational questions answered? Reach out and we’ll prep the deployment plan.
+          </p>
+          <p className="tracking-[0.4em] uppercase text-xs text-zinc-500">
+            contact@shackmounts.com
+          </p>
+        </div>
+
+        <div className="flex flex-col sm:flex-row justify-center gap-4">
+          <a
+            href="mailto:contact@shackmounts.com"
+            className="inline-flex items-center justify-center gap-3 px-8 py-4 border-2 border-orange-500 text-orange-500 hover:bg-orange-500 hover:text-black font-bold tracking-[0.2em] uppercase text-sm transition-all hover:scale-105"
+          >
+            <Mail size={20} />
+            Contact Sales
+          </a>
+          <a
+            href="mailto:contact@shackmounts.com?subject=ShackMounts%20Combo%20Kit%20Preorder"
+            className="inline-flex items-center justify-center gap-3 px-8 py-4 bg-orange-600 hover:bg-orange-500 text-black font-bold tracking-[0.2em] uppercase text-sm transition-all hover:scale-105"
+          >
+            <Mail size={20} />
+            Preorder Combo Kit
+          </a>
+        </div>
       </div>
     </section>
   );

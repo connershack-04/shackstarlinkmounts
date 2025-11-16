@@ -6,19 +6,19 @@ export function WhyUs() {
       icon: Mountain,
       title: 'Field-Proven Mission',
       description:
-        'Built so remote workers, vanlifers, sailors, and responders can work closer to the mountains, ocean, or desert without losing reliable bandwidth.',
+        'Remote workers, expedition crews, and responders operate closer to the mountains, ocean, and desert without losing bandwidth.',
     },
     {
       icon: Tent,
       title: 'Designed for harsh terrain',
       description:
-        'Military-grade materials shrug off storms, sand, and washboard roads. ShackMounts is engineered for rooftops, dirt, and marine surfaces.',
+        'Mission-grade materials shrug off storms, sand, and washboard roads. ShackMounts is engineered for rooftops, dirt, and marine surfaces.',
     },
     {
       icon: Wrench,
       title: 'Simple field install',
       description:
-        'Matched hardware pattern, wiring routing, and lightweight components make setup fast for vans, campers, or tactical vehicles.',
+        'Matched hardware, cable routing, and lightweight components keep installs fast for vans, campers, or tactical command vehicles.',
     },
     {
       icon: Shield,
