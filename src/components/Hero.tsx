@@ -17,26 +17,19 @@ export function Hero() {
       <div className="absolute inset-0 bg-gradient-to-b from-black via-transparent to-black" />
 
       <div className="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 text-center">
-        <div className="inline-flex flex-wrap items-center justify-center gap-2 mb-6 px-4 py-2 border border-orange-500/50 bg-orange-500/10 uppercase tracking-[0.2em] text-xs text-orange-400 font-bold">
-          <span className="text-xs tracking-[0.3em] text-orange-400 font-bold uppercase">
-            Mission Ready
-          </span>
-          <span className="text-[10px] text-zinc-500 tracking-[0.4em]">100 units · Preorders open</span>
-        </div>
-
         <div className="space-y-4 mb-6">
           <h1 className="text-5xl sm:text-6xl md:text-7xl font-bold tracking-tight text-zinc-100 uppercase leading-tight">
             ShackMounts Field Kit
           </h1>
           <p className="text-lg sm:text-xl text-orange-400 tracking-[0.35em] uppercase">
-            Starlink Mini + Rugged Roof Mount + Hardware
+            Starlink Mini · Rugged Roof Mount · Wiring + Hardware
           </p>
         </div>
 
         <p className="text-xl sm:text-2xl text-zinc-400 mb-8 max-w-3xl mx-auto leading-relaxed">
-          ShackMounts equips first responders, service crews, and mobile teams with dependable Starlink Mini
-          connectivity. Every bracket and fastener is built for disciplined field use—no theatrics, just hardware
-          you can trust when communications matter.
+          The Field Kit delivers a complete Starlink Mini package—dish, ShackMounts roof mount, routing kit,
+          and hardware—so first responders and remote crews can deploy communications without chasing parts.
+          Built for disciplined fleets that need documented, repeatable installs.
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
