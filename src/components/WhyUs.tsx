@@ -1,30 +1,36 @@
-import { Mountain, Tent, Wrench, Shield } from 'lucide-react';
+import { Hammer, Tent, Shield, Wrench, ShieldCheck } from 'lucide-react';
 
 export function WhyUs() {
   const reasons = [
     {
-      icon: Mountain,
-      title: 'Field-Proven Mission',
+      icon: Hammer,
+      title: 'Built for real work',
       description:
-        'Built in partnership with remote workers, expedition crews, and public safety teams who need bandwidth far from infrastructure.',
+        'ShackMounts delivers reliable hardware for teams that need connectivity to survive weather, travel, and constant redeployment.',
     },
     {
       icon: Tent,
-      title: 'Designed for harsh terrain',
+      title: 'Proven in the field',
       description:
-        'Mission-grade materials tolerate storms, salt, and washboard roads so the gear can stay mounted to vehicles and vessels.',
+        'Developed with remote workers, expedition teams, and public safety units operating far from infrastructure.',
     },
     {
       icon: Wrench,
-      title: 'Simple field install',
+      title: 'Made for harsh environments',
       description:
-        'Matched hardware, cable routing, and lightweight components keep installs repeatable for fleets, trailers, or tactical command vehicles.',
+        'Materials withstand storms, salt, vibration, and rough roads on vehicles, vessels, and field sites.',
     },
     {
       icon: Shield,
-      title: 'Lifetime toughness warranty',
+      title: 'Fast, repeatable installs',
       description:
-        'Every mount is backed by our Lifetime Toughness Warranty covering failures during normal use. Built to survive being driven over.',
+        'Matched hardware and clean cable routing make installs easy across fleets, trailers, and mobile units.',
+    },
+    {
+      icon: ShieldCheck,
+      title: 'Lifetime toughness guarantee',
+      description:
+        'Backed by our Lifetime Toughness Warranty—built to endure real-world conditions.',
     },
   ];
 
@@ -35,12 +41,7 @@ export function WhyUs() {
           Why Choose Shack Mounts
         </h2>
 
-        <p className="text-xl text-zinc-400 mb-12 max-w-3xl leading-relaxed">
-          ShackMounts gives agencies and remote professionals trusted hardware—not lifestyle gear. We build for
-          disciplined operations where communications must survive weather, transport, and constant redeployment.
-        </p>
-
-        <div className="grid gap-6">
+        <div className="grid gap-6 mt-12">
           {reasons.map((reason) => {
             const Icon = reason.icon;
             return (
