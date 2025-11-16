@@ -34,9 +34,9 @@ export function Hero() {
         </div>
 
         <p className="text-xl sm:text-2xl text-zinc-400 mb-8 max-w-3xl mx-auto leading-relaxed">
-          ShackMounts keeps remote teams, vanlifers, and responders online in hostile terrain.
-          We build mission-grade hardware so you can work closer to the mountains, desert,
-          or coastline without giving up reliable bandwidth.
+          ShackMounts equips first responders, service crews, and mobile teams with dependable Starlink Mini
+          connectivity. Every bracket and fastener is built for disciplined field use—no theatrics, just hardware
+          you can trust when communications matter.
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center">

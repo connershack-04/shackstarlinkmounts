@@ -10,14 +10,14 @@ const products = [
     priceLabel: '$129',
     priceNote: '',
     description:
-      'Rugged, waterproof Starlink Mini housing built for vans, rigs, and field deployments. Lightweight and impact-resistant with sealed seams.',
+      'Purpose-built enclosure for agencies and teams who already own a Starlink Mini. Keeps the dish secured, sealed, and low profile on vehicles or fixed sites.',
     longDescription: '',
     features: [
-      'Military-grade polymer resists wind, drops, and impacts',
-      'Weatherproof seals lock out storms, sand, and salt spray',
-      'Mount on rooftops, dirt, sand, or marine decks without interference',
-      'Lightweight design packs easily for vans, kits, or emergency response',
-      'Hardware pattern matches Starlink Mini for fast installs',
+      'Impact-rated polymer tolerates roof rack abuse and transport knocks',
+      'Gasketed seams protect electronics from weather and washdowns',
+      'Low silhouette maintains signal while clearing hose lines and cargo',
+      'Installs on steel, aluminum, composite, or marine surfaces without rework',
+      'Hardware pattern matches Starlink Mini for straightforward retrofits',
     ],
     buttonLabel: 'Preorder Mount',
     buttonHref: `mailto:${contactEmail}?subject=${encodeURIComponent(
@@ -31,13 +31,13 @@ const products = [
     title: ['Shack Field Kit', 'Starlink Mini + Roof Mount'],
     priceLabel: '$399',
     description:
-      'Starlink Mini plus Shack roof mount and hardware for plug-and-play deployments. One case, one mount, ready for vans, campers, or service vehicles.',
+      'Factory Starlink Mini bundled with the Shack roof mount, wiring routing, and hardware kit so departments can deploy a complete, documented system.',
     longDescription: '',
     features: [
       'Includes Starlink Mini, Shack roof mount, wiring routing, and full hardware',
-      'Fits flat roofs on vans, campers, marine decks, and service vehicles',
-      'Simple field-ready install with matched hardware and cable routing',
-      'Best option for first responders and remote teams needing a turnkey kit',
+      'Ships with documentation for fleet / municipal procurement teams',
+      'Fits flat roofs on vans, command trailers, marine decks, and service vehicles',
+      'Cable routing accessories keep installs neat for NFPA- and agency-style inspections',
     ],
     buttonLabel: 'Order Bundle',
     buttonHref: `mailto:${contactEmail}?subject=${encodeURIComponent(
@@ -56,12 +56,12 @@ export function Product() {
             Products
           </p>
           <h2 className="text-4xl sm:text-5xl font-bold text-zinc-100 mb-4 uppercase tracking-tight">
-            Field hardware built for real deployments
+            Field hardware for disciplined deployments
           </h2>
           <p className="text-zinc-400 text-lg leading-relaxed">
-            ShackMounts builds rugged Starlink Mini hardware for remote workers, vanlifers, and
-            mission-driven teams. Choose the combo kit to get everything in one shipment or grab the
-            mount alone to retrofit your existing dish.
+            ShackMounts builds Starlink Mini hardware for fire agencies, utility crews, expedition teams,
+            and military contractors. The combo kit carries the highest priority, but the standalone mount
+            remains available for units that already own the dish.
           </p>
         </div>
 
@@ -120,8 +120,8 @@ export function Product() {
                 </h3>
                 <p className="text-zinc-400 leading-relaxed mb-6">
                   {index === 0
-                    ? 'Ideal for existing Starlink Mini owners who need a stronger, waterproof housing that bolts directly to vans, trucks, or marine decks.'
-                    : 'Best choice when you need a turnkey kit: Starlink Mini, ShackMounts roof mount, wiring routing accessories, and hardware ready for install.'}
+                    ? 'Select this if your team already owns the Starlink Mini hardware. The mount arrives ready for your preferred fastening pattern and meets lifetime warranty coverage.'
+                    : 'Choose the Shack Field Kit to receive the dish, mount, wiring routing, and hardware in one shipment with documentation for procurement files.'}
                 </p>
                 <a
                   href={product.buttonHref}

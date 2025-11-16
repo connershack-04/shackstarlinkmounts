@@ -6,7 +6,7 @@ export function Specs() {
       icon: Shield,
       title: 'Military-grade build',
       description:
-        'Waterproof polymer shrugs off drops, wind, and vehicle abuse while guarding the Starlink Mini.',
+        'Waterproof polymer shrugs off drops, wind, and rack abuse while guarding the Starlink Mini during transport and staging.',
     },
     {
       icon: Zap,

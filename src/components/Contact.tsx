@@ -10,8 +10,8 @@ export function Contact() {
 
         <div className="space-y-6 text-zinc-400 mb-10">
           <p className="text-base">
-            Preorders are open for the first 100 ShackMounts units. Need procurement paperwork, pricing decks,
-            or operational questions answered? Reach out and we’ll prep the deployment plan.
+            Preorders are limited to the first 100 units. Request procurement packets, pricing schedules,
+            or technical details and we will respond with a tailored plan for your department or team.
           </p>
           <p className="tracking-[0.4em] uppercase text-xs text-zinc-500">
             contact@shackmounts.com

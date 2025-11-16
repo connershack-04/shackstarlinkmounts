@@ -6,19 +6,19 @@ export function WhyUs() {
       icon: Mountain,
       title: 'Field-Proven Mission',
       description:
-        'Remote workers, expedition crews, and responders operate closer to the mountains, ocean, and desert without losing bandwidth.',
+        'Built in partnership with remote workers, expedition crews, and public safety teams who need bandwidth far from infrastructure.',
     },
     {
       icon: Tent,
       title: 'Designed for harsh terrain',
       description:
-        'Mission-grade materials shrug off storms, sand, and washboard roads. ShackMounts is engineered for rooftops, dirt, and marine surfaces.',
+        'Mission-grade materials tolerate storms, salt, and washboard roads so the gear can stay mounted to vehicles and vessels.',
     },
     {
       icon: Wrench,
       title: 'Simple field install',
       description:
-        'Matched hardware, cable routing, and lightweight components keep installs fast for vans, campers, or tactical command vehicles.',
+        'Matched hardware, cable routing, and lightweight components keep installs repeatable for fleets, trailers, or tactical command vehicles.',
     },
     {
       icon: Shield,
@@ -36,8 +36,8 @@ export function WhyUs() {
         </h2>
 
         <p className="text-xl text-zinc-400 mb-12 max-w-3xl leading-relaxed">
-          ShackMounts delivers rugged connectivity hardware so teams can operate anywhere with confidence.
-          Mission-grade design and simple installs keep you moving while modern commerce features stay on our roadmap.
+          ShackMounts gives agencies and remote professionals trusted hardware—not lifestyle gear. We build for
+          disciplined operations where communications must survive weather, transport, and constant redeployment.
         </p>
 
         <div className="grid gap-6">
