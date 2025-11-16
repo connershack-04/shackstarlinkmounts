@@ -27,9 +27,8 @@ export function Hero() {
         </div>
 
         <p className="text-xl sm:text-2xl text-zinc-400 mb-8 max-w-3xl mx-auto leading-relaxed">
-          The Field Kit delivers a complete Starlink Mini package—dish, ShackMounts roof mount, routing kit,
-          and hardware—so first responders and remote crews can deploy communications without chasing parts.
-          Built for disciplined fleets that need documented, repeatable installs.
+          Reliable Starlink Mini connectivity for remote teams, fire crews, and field operations.
+          Durable hardware engineered to perform when communication is critical.
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
