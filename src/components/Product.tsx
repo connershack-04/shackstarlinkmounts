@@ -13,10 +13,10 @@ const products = [
       'A durable, weather-sealed Starlink Mini mount for teams and individuals. Keeps the dish secure, protected, and low-profile on vehicles or fixed installations.',
     longDescription: '',
     features: [
-      'Weather-sealed housing protects electronics from rain, wind, and snow',
-      'Low-profile design maintains strong signal',
-      'Secure fit keeps the Starlink Mini from shifting during travel',
-      'Impact-resistant shell can handle the elements',
+      'Weather-sealed case keeps your Starlink Mini protected',
+      'Low-profile maintains reliable signal without adding bulk',
+      'Secure mounting system keeps the dish locked in place during travel',
+      'Impact-resistant shell stands up to harsh conditions',
     ],
     buttonLabel: 'Preorder Mount',
     buttonHref: `mailto:${contactEmail}?subject=${encodeURIComponent(
