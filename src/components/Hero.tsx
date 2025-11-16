@@ -22,7 +22,7 @@ export function Hero() {
             ShackMounts Field Kit
           </h1>
           <p className="text-lg sm:text-xl text-orange-400 tracking-[0.35em] uppercase">
-            Starlink Mini · Rugged Roof Mount · Wiring + Hardware
+            Starlink Mini · Rugged Roof Mount · Hardware
           </p>
         </div>
 
