@@ -10,7 +10,7 @@ const products = [
     priceLabel: '$129',
     priceNote: '',
     description:
-      'Purpose-built enclosure for agencies and teams who already own a Starlink Mini. Keeps the dish secured, sealed, and low profile on vehicles or fixed sites.',
+      'A durable, weather-sealed mount for teams and individuals who already own a Starlink Mini. Keeps the dish secure, protected, and low-profile on vehicles or fixed installations.',
     longDescription: '',
     features: [
       'Impact-rated polymer tolerates roof rack abuse and transport knocks',
