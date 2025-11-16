@@ -4,21 +4,21 @@ export function Specs() {
   const features = [
     {
       icon: Shield,
-      title: 'Military-grade build',
+      title: 'Built for the Outdoors',
       description:
-        'Waterproof polymer shrugs off drops, wind, and rack abuse while guarding the Starlink Mini during transport and staging.',
+        'Weather-sealed housing protects the Starlink through all conditions.',
     },
     {
       icon: Zap,
-      title: 'All-environment deployment',
+      title: 'Ready Anywhere',
       description:
-        'Sets up on rooftops, dirt, sand, or marine decks with the same low-drag profile and zero signal interference.',
+        'Installs easily on vans, trailers, and boats with an outstanding internet connection.',
     },
     {
       icon: Package,
-      title: 'Combo kit contents',
+      title: 'Complete Kit',
       description:
-        'Starlink Mini, Shack Rugged Mini Mount, wiring routing accessories, and full hardware kit for $399.',
+        'Includes Starlink Mini, Shack Mount, hardware, and cable routing for a streamlined setup.',
     },
   ];
 
