@@ -27,7 +27,7 @@ export function Hero() {
         </div>
 
         <p className="text-xl sm:text-2xl text-zinc-400 mb-8 max-w-3xl mx-auto leading-relaxed">
-          Reliable Starlink Mini connectivity for remote teams, fire crews, and field operations.
+          Reliable Starlink Mini connectivity for remote workers, first responders, and military.
           Durable hardware engineered to perform when communication is critical.
         </p>
 
