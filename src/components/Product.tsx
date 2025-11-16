@@ -56,7 +56,7 @@ export function Product() {
             Products
           </p>
           <h2 className="text-4xl sm:text-5xl font-bold text-zinc-100 mb-4 uppercase tracking-tight">
-            Anywhere connectivity
+            Products
           </h2>
         </div>
 
