@@ -12,7 +12,7 @@ export function WhyUs() {
       icon: Tent,
       title: 'Proven in the field',
       description:
-        'Developed with remote workers, military, and first responders units operating far from infrastructure.',
+        'Developed for remote workers, military, and first responder units.',
     },
     {
       icon: Wrench,
@@ -22,9 +22,9 @@ export function WhyUs() {
     },
     {
       icon: Shield,
-      title: 'Fast, repeatable installs',
+      title: 'Fast installs',
       description:
-        'Matched hardware and clean cable routing make installs easy.',
+        'Rugged hardware and clean cable organization make installs quick and easy.',
     },
     {
       icon: ShieldCheck,
