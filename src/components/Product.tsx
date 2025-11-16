@@ -10,16 +10,15 @@ const products = [
     priceLabel: '$149',
     priceNote: '/ preorder',
     description:
-      'Military-grade Starlink Mini mount engineered for harsh deployments. Waterproof, impact-resistant, and ready for vehicles, dirt, or marine surfaces.',
-    longDescription:
-      'Built from rugged polymers with recessed hardware and sealed seams, the Mini Mount shrugs off storms, dust, or being driven over. Lightweight design keeps drag low while keeping the dish protected and interference-free.',
+      'Rugged, waterproof Starlink Mini housing built for vans, rigs, and field deployments. Lightweight and impact-resistant with sealed seams.',
+    longDescription: '',
     features: [
-      'Military-grade plastic shell survives wind, drops, and impacts',
-      'Weatherproof seals stand up to storms, sand, and salt spray',
-      'Low-profile shape keeps signal clear while reducing drag',
-      'Installs on rooftops, dirt, sand, or marine surfaces',
-      'Lightweight and portable for vans, packs, or emergency rigs',
-      'Simple assembly with hardware pattern matched to Starlink Mini',
+      'Military-grade plastic resists wind, drops, and impacts',
+      'Weatherproof seals block storms, sand, and salt spray',
+      'Low-profile form keeps signal clear without adding drag',
+      'Installs on rooftops, dirt, sand, and marine decks',
+      'Travel-ready weight for packs, vans, and emergency kits',
+      'Fast install with hardware pattern matched to Starlink Mini',
     ],
     buttonLabel: 'Preorder Mount',
     buttonHref: `mailto:${contactEmail}?subject=${encodeURIComponent(
@@ -33,13 +32,12 @@ const products = [
     title: ['Shack Field Kit', 'Starlink Mini + Roof Mount'],
     priceLabel: '$399',
     description:
-      'The Shack Field Kit combines the Starlink Mini with our low-profile roof mount to deliver reliable connectivity anywhere. Designed for vanlifers, remote workers, and emergency responders, this setup provides durable protection and simple installation for field use.',
-    longDescription:
-      'Each kit ships with the Starlink Mini, ShackMounts rugged Mini Mount, dedicated wiring routing accessories, and the full mounting hardware set so deployments stay fast and standardized.',
+      'Starlink Mini plus Shack roof mount and hardware for plug-and-play deployments. One case, one mount, ready for vans, campers, or service vehicles.',
+    longDescription: '',
     features: [
-      'Includes Starlink Mini, Shack roof mount, and full mounting hardware',
-      'Compatible with roofs on vans, campers, and service vehicles',
-      'Simple field-ready installation with bundled wiring routing',
+      'Includes Starlink Mini, Shack roof mount, and full hardware',
+      'Fits flat roofs on vans, campers, and service vehicles',
+      'Simple field-ready install with wiring routing accessories',
     ],
     buttonLabel: 'Order Bundle',
     buttonHref: `mailto:${contactEmail}?subject=${encodeURIComponent(

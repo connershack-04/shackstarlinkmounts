@@ -6,19 +6,19 @@ export function Specs() {
       icon: Shield,
       title: 'Military-grade build',
       description:
-        'Waterproof, weather-resistant polymer survives drops, high winds, and even being driven over while keeping the Starlink Mini protected.',
+        'Waterproof polymer shrugs off drops, wind, and vehicle abuse while guarding the Starlink Mini.',
     },
     {
       icon: Zap,
       title: 'All-environment deployment',
       description:
-        'Lightweight form factor installs on rooftops, dirt, sand, or marine decks without interfering with signal integrity or adding drag.',
+        'Installs on rooftops, dirt, sand, or marine decks without affecting signal or adding drag.',
     },
     {
       icon: Package,
       title: 'Combo kit contents',
       description:
-        'Starlink Mini device, ShackMounts Rugged Mini Mount, wiring routing accessories, and the full hardware kit—priced at $399.',
+        'Starlink Mini, Shack Rugged Mini Mount, wiring routing accessories, and full hardware kit for $399.',
     },
   ];
 

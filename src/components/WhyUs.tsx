@@ -42,9 +42,9 @@ export function WhyUs() {
         </h2>
 
         <p className="text-xl text-zinc-400 mb-12 max-w-3xl leading-relaxed">
-          Van life means freedom, and Shack Mounts keeps you connected while you
-          travel. Whether you're working remotely or streaming content, we've got
-          your internet covered from coast to coast.
+          ShackMounts delivers rugged connectivity hardware so teams can operate anywhere with confidence.
+          Military-inspired design, simple installs, and a roadmap of ecommerce, Apple Pay, PayPal, and
+          customer accounts keep the experience modern.
         </p>
 
         <div className="grid gap-6">
