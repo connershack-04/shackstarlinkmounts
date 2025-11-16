@@ -33,10 +33,9 @@ const products = [
       'Reliable Starlink Mini connectivity for remote workers, first responders, and military. Durable hardware engineered to perform when communication is critical.',
     longDescription: '',
     features: [
-      'Includes Starlink Mini, Shack roof mount, wiring routing, and full hardware',
-      'Ships with documentation for fleet / municipal procurement teams',
-      'Fits flat roofs on vans, command trailers, marine decks, and service vehicles',
-      'Cable routing accessories keep installs neat for NFPA- and agency-style inspections',
+      'Starlink Mini, roof mount, and full hardware included',
+      'Fits vans, trailers, boats, and service vehicles',
+      'Cable organization for a clean, professional setup',
     ],
     buttonLabel: 'Order Bundle',
     buttonHref: `mailto:${contactEmail}?subject=${encodeURIComponent(
