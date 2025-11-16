@@ -30,7 +30,7 @@ export function WhyUs() {
       icon: ShieldCheck,
       title: 'Lifetime toughness guarantee',
       description:
-        'Backed by our Lifetime Toughness Warranty—our products built to endure.',
+        'Backed by our Lifetime Toughness Warranty—our products are built to last.',
     },
   ];
 
