@@ -30,7 +30,7 @@ const products = [
     title: ['Shack Field Kit', 'Starlink Mini + Roof Mount'],
     priceLabel: '$399',
     description:
-      'Factory Starlink Mini bundled with the Shack roof mount, wiring routing, and hardware kit so departments can deploy a complete, documented system.',
+      'Reliable Starlink Mini connectivity for remote workers, first responders, and military. Durable hardware engineered to perform when communication is critical.',
     longDescription: '',
     features: [
       'Includes Starlink Mini, Shack roof mount, wiring routing, and full hardware',
