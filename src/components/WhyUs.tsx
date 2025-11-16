@@ -1,4 +1,4 @@
-import { Mountain, Tent, Wrench, Shield, Target } from 'lucide-react';
+import { Mountain, Tent, Wrench, Shield } from 'lucide-react';
 
 export function WhyUs() {
   const reasons = [
@@ -26,12 +26,6 @@ export function WhyUs() {
       description:
         'Every mount is backed by our Lifetime Toughness Warranty covering failures during normal use. Built to survive being driven over.',
     },
-    {
-      icon: Target,
-      title: 'Roadmap for growth',
-      description:
-        'Ecommerce, Apple Pay and PayPal payments, customer accounts, product videos, and 3D models are all on the roadmap to support mission-critical deployments.',
-    },
   ];
 
   return (
@@ -43,8 +37,7 @@ export function WhyUs() {
 
         <p className="text-xl text-zinc-400 mb-12 max-w-3xl leading-relaxed">
           ShackMounts delivers rugged connectivity hardware so teams can operate anywhere with confidence.
-          Military-inspired design, simple installs, and a roadmap of ecommerce, Apple Pay, PayPal, and
-          customer accounts keep the experience modern.
+          Mission-grade design and simple installs keep you moving while modern commerce features stay on our roadmap.
         </p>
 
         <div className="grid gap-6">

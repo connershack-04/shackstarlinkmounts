@@ -33,7 +33,7 @@ export function Hero() {
 
         <p className="text-xl sm:text-2xl text-zinc-400 mb-8 max-w-3xl mx-auto leading-relaxed">
           ShackMounts keeps remote teams, vanlifers, and responders online in hostile terrain.
-          We build military-inspired hardware so you can work closer to the mountains, desert,
+          We build mission-grade hardware so you can work closer to the mountains, desert,
           or coastline without giving up reliable bandwidth.
         </p>
 

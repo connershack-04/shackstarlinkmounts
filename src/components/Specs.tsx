@@ -12,7 +12,7 @@ export function Specs() {
       icon: Zap,
       title: 'All-environment deployment',
       description:
-        'Installs on rooftops, dirt, sand, or marine decks without affecting signal or adding drag.',
+        'Sets up on rooftops, dirt, sand, or marine decks with the same low-drag profile and zero signal interference.',
     },
     {
       icon: Package,

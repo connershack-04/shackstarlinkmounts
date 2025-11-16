@@ -8,11 +8,6 @@ export function Contact() {
           Let's Build Together
         </h2>
 
-        <p className="text-xl text-zinc-400 mb-8 leading-relaxed">
-          Ready to reserve hardware from the first 100-unit batch or integrate Apple Pay, PayPal,
-          and customer accounts into your workflow? Reach out and we’ll tailor the deployment plan.
-        </p>
-
         <a
           href="mailto:hello@shackmounts.com"
           className="inline-flex items-center gap-3 px-8 py-4 border-2 border-orange-500 text-orange-500 hover:bg-orange-500 hover:text-black font-bold tracking-[0.2em] uppercase text-sm transition-all hover:scale-105"
