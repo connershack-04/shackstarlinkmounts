@@ -11,13 +11,8 @@ export function Warranty() {
               Lifetime Toughness Warranty
             </h3>
             <p className="text-zinc-400 leading-relaxed">
-              If a ShackMounts product fails under normal use, we replace it. No drama.
-              Built for people who cannot afford downtime.
+              If a ShackMounts product fails under normal use, we replace it.
             </p>
-          </div>
-          <div className="text-sm text-zinc-500">
-            Backed by our Lifetime Toughness Warranty—our products are built to last. Not affiliated with
-            Starlink or SpaceX. ShackMounts hardware is designed to work with official Starlink Mini equipment.
           </div>
         </div>
       </div>
