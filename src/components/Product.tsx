@@ -10,7 +10,7 @@ const products = [
     priceLabel: '$129',
     priceNote: '',
     description:
-      'A durable, weather-sealed mount for teams and individuals who already own a Starlink Mini. Keeps the dish secure, protected, and low-profile on vehicles or fixed installations.',
+      'A durable, weather-sealed Starlink Mini mount for teams and individuals. Keeps the dish secure, protected, and low-profile on vehicles or fixed installations.',
     longDescription: '',
     features: [
       'Weather-sealed housing protects electronics from rain, wind, and snow',
@@ -56,7 +56,7 @@ export function Product() {
           </h2>
         </div>
 
-        {products.map((product, index) => (
+        {products.map((product) => (
           <div
             key={product.id}
             className="grid lg:grid-cols-2 gap-10 items-start bg-gradient-to-br from-zinc-950 via-black to-zinc-950 border border-zinc-800 p-8"
@@ -75,10 +75,6 @@ export function Product() {
                   </span>
                 ))}
               </h2>
-
-              <p className="text-zinc-400 text-lg mb-6 leading-relaxed">
-                {product.description}
-              </p>
 
               <div className="flex items-baseline gap-3 mb-6">
                 <span className="text-4xl font-bold text-orange-400">
@@ -106,14 +102,6 @@ export function Product() {
 
             <div className="flex flex-col gap-6">
               <div className="p-6 border border-zinc-800 bg-black/40">
-                <h3 className="text-lg font-semibold tracking-[0.3em] uppercase text-zinc-500 mb-4">
-                  Deployment Notes
-                </h3>
-                <p className="text-zinc-400 leading-relaxed mb-6">
-                  {index === 0
-                    ? 'Select this if your team already owns the Starlink Mini hardware. The mount arrives ready for your preferred fastening pattern and meets lifetime warranty coverage.'
-                    : 'Choose the Shack Field Kit to receive the dish, mount, wiring routing, and hardware in one shipment with documentation for procurement files.'}
-                </p>
                 <a
                   href={product.buttonHref}
                   className="w-full inline-flex justify-center px-8 py-4 bg-orange-600 hover:bg-orange-500 text-black font-bold tracking-[0.2em] uppercase text-sm transition-all hover:scale-105"
@@ -121,9 +109,6 @@ export function Product() {
                 >
                   {product.buttonLabel}
                 </a>
-                {product.footnote ? (
-                  <p className="text-xs text-zinc-600 mt-4">{product.footnote}</p>
-                ) : null}
               </div>
             </div>
           </div>
