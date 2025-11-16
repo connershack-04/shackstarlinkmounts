@@ -52,9 +52,6 @@ export function Product() {
     <section id="product" className="py-24 bg-zinc-950">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 space-y-16">
         <div className="max-w-3xl">
-          <p className="text-sm tracking-[0.35em] text-orange-500 uppercase mb-4">
-            Products
-          </p>
           <h2 className="text-4xl sm:text-5xl font-bold text-zinc-100 mb-4 uppercase tracking-tight">
             Products
           </h2>
