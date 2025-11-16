@@ -56,12 +56,11 @@ export function Product() {
             Products
           </p>
           <h2 className="text-4xl sm:text-5xl font-bold text-zinc-100 mb-4 uppercase tracking-tight">
-            Field hardware for disciplined deployments
+            Anywhere connectivity
           </h2>
           <p className="text-zinc-400 text-lg leading-relaxed">
-            ShackMounts builds Starlink Mini hardware for fire agencies, utility crews, expedition teams,
-            and military contractors. The combo kit carries the highest priority, but the standalone mount
-            remains available for units that already own the dish.
+            Field-ready Starlink Mini hardware for service vehicles, remote teams, and mission crews.
+            Choose the kit for a full deployment or the mount for existing equipment.
           </p>
         </div>
 
