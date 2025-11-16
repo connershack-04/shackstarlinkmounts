@@ -19,21 +19,22 @@ export function Hero() {
       <div className="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 text-center">
         <div className="inline-block mb-6 px-4 py-2 border border-orange-500/50 bg-orange-500/10">
           <span className="text-xs tracking-[0.3em] text-orange-400 font-bold uppercase">
-            Field Tested
+            Mission Ready
           </span>
         </div>
 
         <h1 className="text-5xl sm:text-6xl md:text-7xl font-bold tracking-tight text-zinc-100 mb-6 uppercase leading-tight">
-          Starlink Mini
+          Rugged Starlink Mini
           <br />
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-orange-500 to-orange-400">
-            Mount
+            Connectivity
           </span>
         </h1>
 
         <p className="text-xl sm:text-2xl text-zinc-400 mb-8 max-w-3xl mx-auto leading-relaxed">
-          Stay connected on the road. Starlink mount engineered for vans, trailers,
-          and trucks. Work or stream from anywhere.
+          ShackMounts keeps remote teams, vanlifers, and responders online in hostile terrain.
+          We build military-inspired hardware so you can work closer to the mountains, desert,
+          or coastline without giving up reliable bandwidth.
         </p>
 
         <button

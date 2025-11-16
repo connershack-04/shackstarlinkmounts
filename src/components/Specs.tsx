@@ -4,21 +4,21 @@ export function Specs() {
   const features = [
     {
       icon: Shield,
-      title: 'Built for the road',
+      title: 'Military-grade build',
       description:
-        'Heavy-duty materials designed to handle highway speeds, wind, and weather. Tested on cross-country van journeys.',
+        'Waterproof, weather-resistant polymer survives drops, high winds, and even being driven over while keeping the Starlink Mini protected.',
     },
     {
       icon: Zap,
-      title: 'Easy van install',
+      title: 'All-environment deployment',
       description:
-        'Mount your Starlink with a simple, tidy setup that works on any van or truck roof. No complex tools needed.',
+        'Lightweight form factor installs on rooftops, dirt, sand, or marine decks without interfering with signal integrity or adding drag.',
     },
     {
       icon: Package,
-      title: 'Road-trip ready',
+      title: 'Combo kit contents',
       description:
-        'Perfect for trucks, vans, trailers and remote setups where reliable internet matters most.',
+        'Starlink Mini device, ShackMounts Rugged Mini Mount, wiring routing accessories, and the full hardware kit—priced at $399.',
     },
   ];
 

@@ -1,36 +1,36 @@
-import { Mountain, Tent, Wrench, Wind, Trees } from 'lucide-react';
+import { Mountain, Tent, Wrench, Shield, Target } from 'lucide-react';
 
 export function WhyUs() {
   const reasons = [
     {
       icon: Mountain,
-      title: 'Stay connected on the road',
+      title: 'Field-Proven Mission',
       description:
-        'Work or stream reliably from your van, trailer, or truck. Your Starlink stays locked in, no matter where you travel.',
+        'Built so remote workers, vanlifers, sailors, and responders can work closer to the mountains, ocean, or desert without losing reliable bandwidth.',
     },
     {
       icon: Tent,
-      title: 'Built for van life',
+      title: 'Designed for harsh terrain',
       description:
-        'Engineered specifically for vehicles on the move. Works perfectly on vans, trailers, and trucks of all sizes.',
+        'Military-grade materials shrug off storms, sand, and washboard roads. ShackMounts is engineered for rooftops, dirt, and marine surfaces.',
     },
     {
       icon: Wrench,
-      title: 'Simple DIY installation',
+      title: 'Simple field install',
       description:
-        'No complicated tools or tech required. Set it up once and focus on what matters—getting outside.',
+        'Matched hardware pattern, wiring routing, and lightweight components make setup fast for vans, campers, or tactical vehicles.',
     },
     {
-      icon: Wind,
-      title: 'Built for highway speeds',
+      icon: Shield,
+      title: 'Lifetime toughness warranty',
       description:
-        'Aerodynamic design handles highway winds and speeds. Your connection stays strong from city to backcountry.',
+        'Every mount is backed by our Lifetime Toughness Warranty covering failures during normal use. Built to survive being driven over.',
     },
     {
-      icon: Trees,
-      title: 'More time outside, less time inside',
+      icon: Target,
+      title: 'Roadmap for growth',
       description:
-        'With dependable connectivity anywhere, you can break free from the office and be closer to nature every single day.',
+        'Ecommerce, Apple Pay and PayPal payments, customer accounts, product videos, and 3D models are all on the roadmap to support mission-critical deployments.',
     },
   ];
 

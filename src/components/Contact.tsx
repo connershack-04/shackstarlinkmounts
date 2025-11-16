@@ -9,8 +9,8 @@ export function Contact() {
         </h2>
 
         <p className="text-xl text-zinc-400 mb-8 leading-relaxed">
-          Ready to get started? Reach out and we'll tailor a plan for your
-          setup.
+          Ready to reserve hardware from the first 100-unit batch or integrate Apple Pay, PayPal,
+          and customer accounts into your workflow? Reach out and we’ll tailor the deployment plan.
         </p>
 
         <a

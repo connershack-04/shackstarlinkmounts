@@ -10,7 +10,7 @@ export function Footer() {
               SHACK MOUNTS
             </div>
             <p className="text-sm text-zinc-500">
-              Connectivity Anywhere. Built for the Wild.
+              Rugged connectivity hardware for mountains, oceans, and mission scenes.
             </p>
           </div>
 
