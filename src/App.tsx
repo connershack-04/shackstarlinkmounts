@@ -4,6 +4,7 @@ import { Product } from './components/Product';
 import { WhyUs } from './components/WhyUs';
 import { Specs } from './components/Specs';
 import { Contact } from './components/Contact';
+import { Warranty } from './components/Warranty';
 import { Footer } from './components/Footer';
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
         <WhyUs />
         <Specs />
         <Contact />
+        <Warranty />
       </main>
       <Footer />
     </div>

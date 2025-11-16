@@ -113,22 +113,6 @@ export function Product() {
           </div>
         ))}
 
-        <div className="grid lg:grid-cols-2 gap-8 border border-zinc-800 p-8 bg-zinc-950">
-          <div>
-            <h3 className="text-2xl font-bold uppercase tracking-tight text-zinc-100 mb-3">
-              Lifetime Toughness Warranty
-            </h3>
-            <p className="text-zinc-400 leading-relaxed">
-              If a ShackMounts product fails under normal use, we replace it. No drama.
-              Built for people who cannot afford downtime.
-            </p>
-          </div>
-          <div className="text-sm text-zinc-500">
-            Not affiliated with Starlink or SpaceX. ShackMounts hardware is designed to work with official
-            Starlink Mini equipment and has been field tested with remote workers, vanlifers, fire departments,
-            and tactical users.
-          </div>
-        </div>
       </div>
     </section>
   );
