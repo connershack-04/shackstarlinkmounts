@@ -23,9 +23,9 @@ export function Specs() {
   ];
 
   return (
-    <section id="specs" className="py-24 bg-zinc-950">
+    <section id="specs" className="py-24 bg-white">
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
-        <h2 className="text-4xl sm:text-5xl font-bold text-zinc-100 mb-12 uppercase tracking-tight">
+        <h2 className="text-4xl sm:text-5xl font-bold text-stone-900 mb-12 uppercase tracking-tight">
           What You Get
         </h2>
 
@@ -35,15 +35,15 @@ export function Specs() {
             return (
               <div
                 key={feature.title}
-                className="p-8 bg-black border border-zinc-800 hover:border-orange-500/50 transition-all hover:shadow-lg hover:shadow-orange-500/10"
+                className="p-8 bg-stone-50 border border-stone-200 hover:border-emerald-300 transition-all hover:shadow-lg hover:shadow-emerald-200/40"
               >
-                <div className="w-16 h-16 mb-6 flex items-center justify-center bg-orange-500/10 border border-orange-500/30">
-                  <Icon className="text-orange-500" size={32} />
+                <div className="w-16 h-16 mb-6 flex items-center justify-center bg-amber-50 border border-amber-200">
+                  <Icon className="text-amber-700" size={32} />
                 </div>
-                <h3 className="text-xl font-bold text-zinc-100 mb-3 uppercase tracking-wide">
+                <h3 className="text-xl font-bold text-stone-900 mb-3 uppercase tracking-wide">
                   {feature.title}
                 </h3>
-                <p className="text-zinc-400 leading-relaxed">
+                <p className="text-stone-700 leading-relaxed">
                   {feature.description}
                 </p>
               </div>

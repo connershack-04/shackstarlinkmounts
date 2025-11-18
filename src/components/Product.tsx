@@ -47,10 +47,10 @@ const products = [
 
 export function Product() {
   return (
-    <section id="product" className="py-24 bg-zinc-950">
+    <section id="product" className="py-24 bg-stone-50">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 space-y-16">
         <div className="max-w-3xl">
-          <h2 className="text-4xl sm:text-5xl font-bold text-zinc-100 mb-4 uppercase tracking-tight">
+          <h2 className="text-4xl sm:text-5xl font-bold text-stone-900 mb-4 uppercase tracking-tight">
             Products
           </h2>
         </div>
@@ -58,16 +58,16 @@ export function Product() {
         {products.map((product) => (
           <div
             key={product.id}
-            className="grid lg:grid-cols-2 gap-10 items-start bg-gradient-to-br from-zinc-950 via-black to-zinc-950 border border-zinc-800 p-8"
+            className="grid lg:grid-cols-2 gap-10 items-start bg-white/90 border border-stone-200 p-8 shadow-sm"
           >
             <div>
-              <div className="inline-block mb-4 px-3 py-1 border border-orange-500/50 bg-orange-500/10">
-                <span className="text-xs tracking-[0.25em] text-orange-400 font-bold uppercase">
+              <div className="inline-block mb-4 px-3 py-1 border border-amber-600/40 bg-amber-50">
+                <span className="text-xs tracking-[0.25em] text-amber-700 font-bold uppercase">
                   {product.badge}
                 </span>
               </div>
 
-              <h2 className="text-4xl sm:text-5xl font-bold text-zinc-100 mb-4 uppercase tracking-tight">
+              <h2 className="text-4xl sm:text-5xl font-bold text-stone-900 mb-4 uppercase tracking-tight">
                 {product.title.map((line) => (
                   <span key={line} className="block">
                     {line}
@@ -76,11 +76,11 @@ export function Product() {
               </h2>
 
               <div className="flex items-baseline gap-3 mb-6">
-                <span className="text-4xl font-bold text-orange-400">
+                <span className="text-4xl font-bold text-amber-700">
                   {product.priceLabel}
                 </span>
                 {product.priceNote ? (
-                  <span className="text-sm uppercase tracking-[0.4em] text-zinc-500">
+                  <span className="text-sm uppercase tracking-[0.4em] text-stone-500">
                     {product.priceNote}
                   </span>
                 ) : null}
@@ -90,20 +90,20 @@ export function Product() {
                 {product.features.map((feature) => (
                   <li key={feature} className="flex items-start gap-3 text-base">
                     <Check
-                      className="text-orange-500 mt-1 flex-shrink-0"
+                      className="text-emerald-700 mt-1 flex-shrink-0"
                       size={20}
                     />
-                    <span className="text-zinc-300">{feature}</span>
+                    <span className="text-stone-700">{feature}</span>
                   </li>
                 ))}
               </ul>
             </div>
 
             <div className="flex flex-col gap-6">
-              <div className="p-6 border border-zinc-800 bg-black/40">
+              <div className="p-6 border border-stone-200 bg-stone-50">
                 <a
                   href={product.buttonHref}
-                  className="w-full inline-flex justify-center px-8 py-4 bg-orange-600 hover:bg-orange-500 text-black font-bold tracking-[0.2em] uppercase text-sm transition-all hover:scale-105"
+                  className="w-full inline-flex justify-center px-8 py-4 bg-emerald-700 hover:bg-emerald-600 text-white font-bold tracking-[0.2em] uppercase text-sm transition-all hover:scale-105"
                   data-product={product.id}
                 >
                   {product.buttonLabel}

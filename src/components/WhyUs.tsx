@@ -35,9 +35,9 @@ export function WhyUs() {
   ];
 
   return (
-    <section id="why" className="py-24 bg-black">
+    <section id="why" className="py-24 bg-stone-100">
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
-        <h2 className="text-4xl sm:text-5xl font-bold text-zinc-100 mb-6 uppercase tracking-tight">
+        <h2 className="text-4xl sm:text-5xl font-bold text-stone-900 mb-6 uppercase tracking-tight">
           Why Choose Shack Mounts
         </h2>
 
@@ -47,18 +47,18 @@ export function WhyUs() {
             return (
               <div
                 key={reason.title}
-                className="flex gap-6 p-6 bg-zinc-950 border border-zinc-800 hover:border-zinc-700 transition-colors"
+                className="flex gap-6 p-6 bg-white border border-stone-200 hover:border-emerald-300 transition-colors shadow-sm"
               >
                 <div className="flex-shrink-0">
-                  <div className="w-12 h-12 flex items-center justify-center bg-orange-500/10 border border-orange-500/30">
-                    <Icon className="text-orange-500" size={24} />
+                  <div className="w-12 h-12 flex items-center justify-center bg-emerald-50 border border-emerald-200">
+                    <Icon className="text-emerald-700" size={24} />
                   </div>
                 </div>
                 <div>
-                  <h3 className="text-xl font-bold text-zinc-100 mb-2 uppercase tracking-wide">
+                  <h3 className="text-xl font-bold text-stone-900 mb-2 uppercase tracking-wide">
                     {reason.title}
                   </h3>
-                  <p className="text-zinc-400 leading-relaxed">
+                  <p className="text-stone-700 leading-relaxed">
                     {reason.description}
                   </p>
                 </div>
