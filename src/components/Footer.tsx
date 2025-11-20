@@ -2,45 +2,45 @@ export function Footer() {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="py-12 bg-stone-200 border-t border-stone-300">
+    <footer className="py-12 bg-[#e8ddc4] border-t border-[#d1c19f]">
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="grid md:grid-cols-3 gap-8">
           <div>
-            <div className="text-xl font-bold tracking-[0.35em] text-stone-900 mb-2 uppercase">
+            <div className="text-xl font-bold tracking-[0.35em] text-[#2b3125] mb-2 uppercase">
               SHACK MOUNTS
             </div>
-            <p className="text-sm text-stone-600 mb-4">
+            <p className="text-sm text-[#4f4b3b] mb-4">
               Rugged connectivity hardware for mountains, oceans, and mission scenes.
             </p>
-            <p className="text-xs uppercase tracking-[0.3em] text-stone-600">
+            <p className="text-xs uppercase tracking-[0.3em] text-[#4f4b3b]">
               contact@shackmounts.com
             </p>
           </div>
-          <div className="text-sm text-stone-600 flex flex-col gap-2 uppercase tracking-[0.3em]">
-            <a href="#hero" className="hover:text-stone-900 transition-colors">
+          <div className="text-sm text-[#4f4b3b] flex flex-col gap-2 uppercase tracking-[0.3em]">
+            <a href="#hero" className="hover:text-[#1f2a1c] transition-colors">
               Home
             </a>
-            <a href="#product" className="hover:text-stone-900 transition-colors">
+            <a href="#product" className="hover:text-[#1f2a1c] transition-colors">
               Products
             </a>
-            <a href="#why" className="hover:text-stone-900 transition-colors">
+            <a href="#why" className="hover:text-[#1f2a1c] transition-colors">
               Why ShackMounts
             </a>
-            <a href="#specs" className="hover:text-stone-900 transition-colors">
+            <a href="#specs" className="hover:text-[#1f2a1c] transition-colors">
               Specs
             </a>
-            <a href="#contact" className="hover:text-stone-900 transition-colors">
+            <a href="#contact" className="hover:text-[#1f2a1c] transition-colors">
               Contact
             </a>
           </div>
-          <div className="text-sm text-stone-600">
+          <div className="text-sm text-[#4f4b3b]">
             <p className="mb-2">Lifetime Toughness Warranty</p>
             <p className="text-xs">
               Not affiliated with Starlink or SpaceX. ShackMounts hardware is designed for the Starlink Mini.
             </p>
           </div>
         </div>
-        <div className="mt-10 text-center text-xs text-stone-600 tracking-[0.4em] uppercase">
+        <div className="mt-10 text-center text-xs text-[#4f4b3b] tracking-[0.4em] uppercase">
           © {currentYear} ShackMounts. All rights reserved.
         </div>
       </div>
